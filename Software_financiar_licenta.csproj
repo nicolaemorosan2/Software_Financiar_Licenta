@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Amortizare.cs" />
+    <Compile Remove="Amortizare_degresiva.cs" />
+    <Compile Remove="Amortizare_liniara.cs" />
+    <Compile Remove="Credit_bancar.cs" />
+    <Compile Remove="Dobanda.cs" />
+    <Compile Remove="Dobanda_compusa.cs" />
+    <Compile Remove="Dobanda_simpla.cs" />
+    <Compile Remove="General.cs" />
+    <Compile Remove="General_calc.cs" />
+    <Compile Remove="General_initializare.cs" />
+    <Compile Remove="Meniu.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="Recuperarea_investitiei.cs" />
+  </ItemGroup>
+
+</Project>
