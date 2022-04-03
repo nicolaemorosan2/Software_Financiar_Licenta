@@ -86,7 +86,7 @@ namespace Software_financiar_licenta
                     //inchide message box-ul
                     this.Close();
                 }
-            } - aceasta optiune era foaarte complicata si gresita - cel mai simplu cu un system.win.msgbox */
+            } - aceasta optiune era foarte complicata si gresita - cel mai simplu cu un system.win.msgbox */
             else if (2 <= float.Parse(perioada_amort_degresiva.Text) && float.Parse(perioada_amort_degresiva.Text) < 5)
             {
                 k = 1.5;
